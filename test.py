@@ -7,6 +7,7 @@ print(users.items())
 for user, status in users.copy().items():
     if status == 'inactive':
         del users[user]
+        # test
 
     print(users)
 
