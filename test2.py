@@ -1,12 +1,7 @@
-def fib(n):
-    a = 0
-    b = 1
-    while a < n:
-        print(a, end=' ')
-        a = b
-        b = a + b
-    print()
-
-
-
-fib(2000)
+sum = 0
+a = [1, 2, 3, 4, 5, 6, 7, 8]
+b = a[::2]
+for i in range(0, 3):
+    sum += b[i]
+    print("b[i]는{}".format(b[i]))
+print("sum은{}".format(sum))
